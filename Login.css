@@ -1,0 +1,59 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6rem;
+    background-color:blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.Container{
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 3rem;
+    padding-left: 2.5rem;
+   width: 400px;
+   background-color: #fff;
+   padding-bottom: 4rem;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"],input[type="password"]{
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+.Login{
+    padding-top: 2rem;
+    text-align: center;
+}
+#submitter{
+    width: 80%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: #ddd;
+    cursor: pointer;
+    border: none;
+}
+#submitter:hover {
+    background-color: #ccc;
+}
+.Login{
+    font-weight: bold;
+    color: black;
+}
+#para{
+    margin-left: 3.6rem;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a :hover{
+    text-decoration: underline;
+}

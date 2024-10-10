@@ -1,0 +1,49 @@
+body{
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.6rem;
+        background-color:blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    
+}
+.Container{
+    
+    border-radius: 10px;
+    
+    padding-left: 2.5rem;
+   width: 400px;
+   background-color: #fff;
+   padding-bottom: 4rem;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+#submitter{
+    width: 80%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: 16px;
+    font-weight: bold;
+    color: black;
+}
+#para{
+    margin-left: 3.6rem;
+}
+.Register{
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+a :hover{
+    text-decoration: underline;
+}
